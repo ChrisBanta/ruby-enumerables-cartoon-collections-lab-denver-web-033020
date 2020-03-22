@@ -21,3 +21,4 @@ def find_the_cheese(snacks)
   cheese.include? (cheese)
  end
 end
+find_the_cheese(snacks)
