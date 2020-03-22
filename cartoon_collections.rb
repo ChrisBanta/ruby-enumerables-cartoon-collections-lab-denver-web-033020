@@ -16,8 +16,8 @@ end
 
 
 def find_the_cheese(snacks)
-  snacks.include? |cheese|
-  cheese == ["cheddar"|| "gouda"|| "camembert"]
-puts cheese 
-end
+  cheese = ["cheddar"|| "gouda"|| "camembert"]
+  snacks.find do |cheese|
+  cheese.include? (cheese)
+ end
 end
