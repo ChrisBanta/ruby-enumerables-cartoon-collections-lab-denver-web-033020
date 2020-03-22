@@ -24,4 +24,3 @@ def find_the_cheese(snacks)
 end
   find_the_cheese(snacks)
 end
-
