@@ -21,5 +21,4 @@ def find_the_cheese(snacks)
   cheese.include? 
  end
 end
-find_the_cheese(snacks)
-end
+
