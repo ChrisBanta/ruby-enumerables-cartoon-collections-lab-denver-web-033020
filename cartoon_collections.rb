@@ -7,7 +7,6 @@ def roll_call_dwarves(array)
  end
 
 def summon_captain_planet(planeteer_calls)
-binding.pry
 index = 0
   planeteer_calls.map! {|planeteer_calls| planeteer_calls.capitalize}
   planeteer_calls.each {|planeteer_calls| puts planeteer_calls +'!'}
