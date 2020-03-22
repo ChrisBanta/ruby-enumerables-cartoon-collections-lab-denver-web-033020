@@ -18,5 +18,6 @@ end
 def find_the_cheese(snacks)
   snacks.include? |cheese|
   cheese == ["cheddar"|| "gouda"|| "camembert"]
+puts cheese 
 end
 end
